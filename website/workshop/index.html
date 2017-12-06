@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container">
+    {% for item in containers.workshop %}
+        {{ item.content }}
+    {% endfor %}
+</div>
+
+{% endblock %}

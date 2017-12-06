@@ -1,0 +1,40 @@
+base_url: /
+domain:
+title: New Coder
+subtitle: five life jackets to throw to the new coder
+posts_url: /<title>/
+author: Lynn Root
+description: Five Life Jackets to Throw to the New Coder - Python tutorials
+
+analytics:
+feed: false
+social:
+    github: econchick
+    twitter: roguelynn
+
+jinja:
+    extensions:
+        - jinja2.ext.loopcontrols
+hoep:
+    render_flags:
+        toc: true
+tag_layout: tag.html
+tags_url: /tags/
+containers:
+    apis:
+        url: /api/<slug>/
+    dataviz:
+        url: /dataviz/<slug>/
+    scrape:
+        url: /scrape/<slug>/
+    networks:
+        url: /networks/<slug>/
+    gui:
+        url: /gui/<slug>/
+    begin:
+        url: /begin/<slug>/
+    workshop:
+        url: /workshop/<slug>/
+    intro:
+        url: /tutorials/
+include: [".htaccess"]

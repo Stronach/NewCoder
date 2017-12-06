@@ -1,0 +1,2 @@
+coverage==3.7.1
+twisted==14.0.2

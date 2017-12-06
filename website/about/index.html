@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+<div class="container">
+    {% for post in posts %}
+        {% if 'about' in post.tags %}
+            {{ post.content }}
+        {% endif %}
+    {% endfor %}
+</div>
+
+{% endblock %}
